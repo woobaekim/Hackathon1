@@ -4,9 +4,9 @@
   "version": "1.0",
   "description": "Get your horoscope based on your zodiac sign.",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
-  "permissions": ["https://horoscope-astrology.p.rapidapi.com/*"],
+  "permissions": ["https://horoscope-astrology.p.rapidapi.com/"],
 
   "web_accessible_resources": [
     {

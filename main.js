@@ -19,7 +19,7 @@ const dateToHoroscopeMap = [
 ];
 
 async function fetchData() {
-  const inputDate = document.getElementById('horoscopeType').value;
+  const inputDate = document.getElementById('date').value;
   const horoscope = getHoroscopeFromInputDate(inputDate);
 
   if (horoscope) {

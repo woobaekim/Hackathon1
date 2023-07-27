@@ -22,3 +22,7 @@ body {
 .horoscope-item {
   margin-bottom: 20px; /* Adjust the margin as needed */
 }
+
+#horoscopeDataContainer {
+  display: none;
+}

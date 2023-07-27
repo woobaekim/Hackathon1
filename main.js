@@ -37,13 +37,14 @@ async function fetchData() {
       .then(result => {
         console.log(result);
         const array = ['name', 'symbol', 'strengths', 'compatibility', 'health', 'career'];
+        const horoscopeDataContainer = document.getElementById('horoscopeDataContainer');
 
         for (let i = 0; i < array.length; i++) {
           const listItem = document.getElementById(array[i]);
           listItem.innerHTML = array[i].toUpperCase() + ': ' + result[array[i]];
           listItem.classList.add('horoscope-item'); 
         }
-
+        horoscopeDataContainer.style.display = 'block';
       })
       .catch(error => {
         console.error(error);

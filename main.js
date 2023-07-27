@@ -15,7 +15,7 @@ const dateToHoroscopeMap = [
   { sign: 'libra', startDate: '09-23', endDate: '10-22' },
   { sign: 'scorpio', startDate: '10-23', endDate: '11-21' },
   { sign: 'sagittarius', startDate: '11-22', endDate: '12-21' },
-  { sign: 'capricorn', startDate: '12-22', endDate: '12-31' }, // Capricorn continues until the end of the year
+  { sign: 'capricorn', startDate: '12-22', endDate: '12-31' }, 
 ];
 
 async function fetchData() {
@@ -27,7 +27,7 @@ async function fetchData() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'db631c0141msh2bbd7a5b904b9bep10cfe2jsnaf5876dd1903', // Replace with your RapidAPI key
+        'X-RapidAPI-Key': 'db631c0141msh2bbd7a5b904b9bep10cfe2jsnaf5876dd1903', 
         'X-RapidAPI-Host': 'horoscope-astrology.p.rapidapi.com'
       }
     };

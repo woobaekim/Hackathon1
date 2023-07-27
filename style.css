@@ -1,0 +1,24 @@
+/* style.css */
+body {
+  /* Set the width and height of the popup */
+  width: 500px;
+  height: 500px;
+  /* Center the popup on the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container {
+  /* Set the width and height of the popup container to fit the content */
+  width: 100%;
+  height: 100%;
+  /* Add some padding to the content inside the popup */
+  padding: 20px;
+  /* Add scroll bar to the content inside the popup */
+  overflow: auto;
+}
+
+.horoscope-item {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
